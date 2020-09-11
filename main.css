@@ -1,4 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #F9FAFB;
+  margin-left: 2.5em;
+}
+
+.top {
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 5.5vw;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.name {
+  margin-top: 3em;
+  font-size: 2vw;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
