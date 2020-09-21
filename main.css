@@ -71,59 +71,42 @@ body {
 
 .projects {
   margin-top: 4em;
-  position: relative;
 }
 
 .projects img {
-  width: 92vw;
-  margin-bottom: 4em;
+  width: 65vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.projects .inforight {
-  color: white;
+.projects .info .text {
   position: absolute;
-  margin-top: -40vw;
+  margin-top: -35vw;
   margin-left: 51vw;
-}
-
-.projects .inforight .text1 {
-  font-size: 4vw;
-  font-weight: 600;
-}
-
-.projects .inforight .text2 {
-  margin-top: 1.5vw;
-  font-size: 1.7vw;
-  font-weight: 300;
-}
-
-.projects .inforight .text3 {
-  margin-top: 1.5vw;
-  font-size: 1.4vw;
-  font-weight: 400;
-}
-
-.projects .infoleft {
   color: white;
-  position: absolute;
-  margin-top: -40vw;
-  margin-left: 5vw;
 }
 
-.projects .infoleft .text1 {
+.projects .info .text1 {
   font-size: 4vw;
   font-weight: 600;
 }
 
-.projects .infoleft .text2 {
-  margin-top: 1.5vw;
+.projects .info .text2 {
+  margin-top: 2vw;
   font-size: 1.7vw;
   font-weight: 300;
 }
 
-.projects .infoleft .text3 {
-  margin-top: 1.5vw;
-  font-size: 1.4vw;
-  font-weight: 400;
+.rectangle {
+  position: absolute;
+  width: 47vw;
+  height: 22vw;
+  margin-top: -40vw;
+  margin-left: 48vw;
+}
+
+.rectangle rect {
+  width: 47vw;
+  height: 22vw;
 }
 /*# sourceMappingURL=main.css.map */
